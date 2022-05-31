@@ -1,0 +1,52 @@
+git init
+
+git add
+
+git commit
+
+-> criar pasta workspace / c:
+
+abrir git bash no disco c
+
+ctlr + l -- para limpar a tela
+
+Criar pasta "livro-receitas"
+
+-> git init
+
+-> ls
+
+-> ls -a (para ver pastas ocultas)
+
+entrar na pasta .git
+
+-> ls
+
+-> cd ..
+
+-> git config --global user.email "tiagovieiraj@gmail.com"
+
+-> git config --global user.name tiagovieiraj
+
+--------------
+criando arquivo
+
+Usar arquivo Markdown - .md
+
+criar arquivo strogonoff.md dentro da pasta livro-receitas
+
+# STROGONOFF DE FRANGO :chicken
+**Negrito**
+_Italico_
+# TITULO NIVEL 1
+## TITULO NIVEL 2
+### TITULO NIVEL 3
+#### TITULO NIVEL 4
+##### TITULO NIVEL 5
+###### TITULO NIVEL 6
+
+--------------------
+
+-> git add *
+
+-> git commit -m "commit inicial"

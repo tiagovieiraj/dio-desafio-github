@@ -1,0 +1,11 @@
+cd - muda de pasta
+dir - lista diretório
+mkdir - cria pasta
+del/rmdir
+cls - limpa a tela
+echo > - Criar arquivo texto
+
+--------------
+
+
+

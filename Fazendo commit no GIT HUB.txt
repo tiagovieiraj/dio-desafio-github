@@ -1,0 +1,58 @@
+git init
+
+-> git status (monitora status dos arquivos)
+
+criar pasta "receitas"
+
+mover arquivo receita para "receitas"
+
+-> mv receitas.md  ./receitas/
+
+cd receitas
+
+ls
+
+cd .. para voltar para livro-receitas
+
+-> git status
+
+-> git add receitas.md receitas/
+
+-> git status
+
+-> git commit -m "cria pasta receitas, move arquivo para receitas"
+
+-> git status
+--------------------
+
+-> echo > README.md
+
+-> ls
+
+-> git status
+
+Abrir arquivo.md e incluir informações sobre o livro de receitas
+
+-> git status
+
+-> git add *
+
+-> git status
+
+-> git commit -m "adiciona index"
+
+-------------------------
+
+git config --list
+
+criar repositório no git hub
+
+copiar arquivo e copiar para um repositório remoto - git@github.com:tiagovieiraj/livro-receitas.git
+
+-> git remote add origin "caminho do git hub"
+
+--> git remote -v
+
+-> git status
+
+-> git push origin master
